@@ -1,0 +1,26 @@
+@import url(css/button.css);
+@import url(css/colors.css);
+@import url(css/textarea.css);
+@import url(css/card.css);
+@import url(css/menu.css);
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--bg-primary-color);
+}
+
+a {
+  color: var(--primary);
+}
+
+a:visited {
+  color: var(--primary-deemed);
+}
+
+:root {
+  font-size: medium;
+  font-family: monospace;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 1px;
+}

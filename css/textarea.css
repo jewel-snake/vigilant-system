@@ -1,0 +1,9 @@
+@import url(colors.css);
+
+.editbox {
+  border-width: 1px;
+  border-radius: 7px;
+  resize: none;
+  border-style: solid;
+  border-color: rgb(70, 70, 70);
+}

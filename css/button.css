@@ -1,0 +1,43 @@
+@import url(colors.css);
+.btn {
+  height: 60px;
+  width: 130px;
+  border-radius: 9px;
+  border-width: 1px;
+  display: flexbox;
+  border-style: solid;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn:active {
+  background-color: var(--primary-deemed);
+}
+
+.construction {
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--primary),
+    var(--primary) 7px,
+    var(--bg-primary) 7px,
+    var(--bg-primary) 14px
+  );
+  font-weight: bolder ;
+  color: rgb(255, 255, 255);
+  text-shadow: black 0 0 5px;
+  background-size: 400%;
+  animation: animate 30s linear infinite;
+
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
