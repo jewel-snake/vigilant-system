@@ -21,9 +21,9 @@
   background: repeating-linear-gradient(
     -45deg,
     var(--primary),
-    var(--primary) 7px,
-    var(--bg-primary) 7px,
-    var(--bg-primary) 14px
+    var(--primary) 9px,
+    var(--bg-primary) 9px,
+    var(--bg-primary) 18px
   );
   font-weight: bolder ;
   color: rgb(255, 255, 255);
