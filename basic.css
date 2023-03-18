@@ -3,6 +3,7 @@
 @import url(css/textarea.css);
 @import url(css/card.css);
 @import url(css/menu.css);
+@import url(css/navbar.css);
 
 body {
   background-color: var(--bg-primary);
