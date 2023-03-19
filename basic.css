@@ -4,6 +4,7 @@
 @import url(css/card.css);
 @import url(css/menu.css);
 @import url(css/navbar.css);
+@import url(css/code.css);
 
 body {
   background-color: var(--bg-primary);

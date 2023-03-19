@@ -49,12 +49,29 @@
       <div class="card bg-secondary">
         <h2>Card label</h2>
         <p>example card</p>
+        <p><code class="inline-code secondary">println!("this is inline code");</code></p>
         <br>
+        <code class="code-block secondary">
+          ; a = edx, b = eax<br>
+          loop:<br>
+              &emsp;mov   ecx, edx<br>
+              &emsp;sub   ecx, eax       ; diff = a - b<br>
+              &emsp;cmp   eax, edx<br>
+              &emsp;cmovg eax, edx       ; b = min(a, b)<br>
+              &emsp;mov   edx, ecx<br>
+              &emsp;neg   edx<br>
+              &emsp;cmovs edx, ecx       ; a = max(diff, -diff) = abs(diff)<br>
+              &emsp;tzcnt ecx, edx       ; az = __builtin_ctz(a)<br>
+              &emsp;sarx  edx, edx, ecx  ; a >>= az<br>
+              &emsp;test  edx, edx       ; a != 0?<br>
+              &emsp;jne   loop<br>
+          ;this is code block
+        </code>
         <div><textarea class="editbox bg-secondary" rows="10" cols="70"></textarea></div>
         <br>
         <div><button class="btn primary">publish</button></div>
         <br>
       </div>
-      <code>test.t</code>
+      <code class="inline-code secondary">test.t</code>
   </body>
 </html>
