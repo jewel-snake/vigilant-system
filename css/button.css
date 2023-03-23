@@ -29,6 +29,7 @@
   text-shadow: rgb(0, 0, 0) 0 0 5px;
   background-size: 400%;
   animation: animate 30s linear infinite;
+  border-color: rgb(255, 251, 212);
 }
 
 .ready {
@@ -38,6 +39,7 @@
   text-shadow: rgb(255, 0, 0) 0 0 13px;
   background-size: 400%;
   animation: blinker 2s linear infinite;
+  border-color: rgb(250, 85, 85);
 }
 
 @keyframes animate {
