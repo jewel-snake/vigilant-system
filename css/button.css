@@ -25,18 +25,32 @@
     var(--bg-primary) 18px
   );
   font-weight: bolder ;
-  color: rgb(255, 255, 255);
-  text-shadow: black 0 0 5px;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 0 0 5px;
   background-size: 400%;
   animation: animate 30s linear infinite;
+}
 
+.ready {
+  background: rgb(255, 0, 0);
+  font-weight: bolder ;
+  color: white;
+  text-shadow: rgb(255, 0, 0) 0 0 13px;
+  background-size: 400%;
+  animation: blinker 2s linear infinite;
 }
 
 @keyframes animate {
   0% {
-    background-position: 0%;
+    background-position: 0px;
   }
   100% {
-    background-position: 400%;
+    background-position: 400px;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    background: rgb(138, 1, 1);
   }
 }
