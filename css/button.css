@@ -27,7 +27,7 @@
   font-weight: bolder ;
   color: white;
   text-shadow: rgb(0, 0, 0) 0 0 5px;
-  background-size: 400%;
+  background-size: 298%;
   animation: animate 30s linear infinite;
   border-color: rgb(255, 251, 212);
 }
